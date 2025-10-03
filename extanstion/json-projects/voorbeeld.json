@@ -1,0 +1,8 @@
+{
+  "instructions": "PlayGround — Experimenteer hier\n1) Gebruik deze map om te oefenen met HTML, CSS en JS.\n2) Maak nieuwe bestanden of pas bestaande bestanden aan.\n3) Probeer kleine experimenten: verander stijlregels, voeg elementen toe of test functies in `script.js`.\n4) Open `index.html` in de browser om snel veranderingen te bekijken.",
+  "files": {
+    "index.html": "<!-- index.html -->",
+    "script.js": "// script.js",
+    "style.css": "/* style.css */"
+  }
+}

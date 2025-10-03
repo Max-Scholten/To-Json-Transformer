@@ -1,0 +1,12 @@
+{
+  "name": "to-json-transformer-extension",
+  "version": "1.0.0",
+  "description": "Save-server and client for To-JSON Transformer extension",
+  "main": "save-server.js",
+  "scripts": {
+    "start": "node save-server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

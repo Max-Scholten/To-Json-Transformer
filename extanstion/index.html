@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>To-JSON Transformer</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>To-JSON Transformer</h1>
+
+      <div class="row">
+        <input id="folderInput" placeholder="Naam cursus" />
+      </div>
+
+      <div class="row">
+        <label for="projectName">Project name</label>
+        <input id="projectName" placeholder="project-name" />
+      </div>
+
+      <div class="row">
+        <label for="instructions">Instructions</label>
+        <textarea
+          id="instructions"
+          rows="4"
+          placeholder="Write instructions..."
+        >
+PlayGround — Experimenteer hier
+1) Gebruik deze map om te oefenen met HTML, CSS en JS.
+2) Maak nieuwe bestanden of pas bestaande bestanden aan.
+3) Probeer kleine experimenten: verander stijlregels, voeg elementen toe of test functies in `script.js`.
+4) Open `index.html` in de browser om snel veranderingen te bekijken.</textarea
+        >
+      </div>
+
+      <div class="row two-col">
+        <div>
+          <label for="htmlField">index.html</label>
+          <textarea
+            id="htmlField"
+            rows="10"
+            placeholder="&lt;!-- HTML here --&gt;"
+          ></textarea>
+        </div>
+        <div>
+          <label for="cssField">style.css</label>
+          <textarea
+            id="cssField"
+            rows="10"
+            placeholder="/* CSS here */"
+          ></textarea>
+        </div>
+      </div>
+
+      <div class="row">
+        <label for="jsField">script.js</label>
+        <textarea id="jsField" rows="6" placeholder="// JS here"></textarea>
+      </div>
+
+      <div class="row actions">
+        <button id="saveBtn">Convert & Save JSON</button>
+        <span id="status" aria-live="polite"></span>
+      </div>
+    </main>
+
+    <script src="js/client.js"></script>
+  </body>
+</html>
